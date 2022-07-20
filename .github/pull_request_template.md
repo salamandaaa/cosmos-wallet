@@ -4,3 +4,4 @@ Fixes
 - [ ] Tests covered
 - [ ] Documentation
 - [ ] Go Mod Tidy
+- [ ] Remove comment code
