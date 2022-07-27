@@ -5,3 +5,4 @@ Fixes
 - [ ] Documentation
 - [ ] Go Mod Tidy
 - [ ] Remove comment code
+- [ ] Every error has context
