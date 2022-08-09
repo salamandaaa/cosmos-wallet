@@ -3,8 +3,8 @@ module github.com/MyriadFlow/cosmos-wallet/custodial
 go 1.18
 
 require (
-	github.com/MyriadFlow/cosmos-wallet/helpers/httpo v0.0.0-00010101000000-000000000000
-	github.com/MyriadFlow/cosmos-wallet/helpers/logo v0.0.0-00010101000000-000000000000
+	github.com/MyriadFlow/cosmos-wallet/helpers/httpo v0.0.0-20220809172012-ac9a5f61d0b8
+	github.com/MyriadFlow/cosmos-wallet/helpers/logo v0.0.0-20220809172012-ac9a5f61d0b8
 	github.com/cosmos/cosmos-sdk v0.45.6
 	github.com/cosmos/cosmos-sdk/api v0.1.0
 	github.com/gin-contrib/cors v1.4.0
