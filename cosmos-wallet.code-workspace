@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "custodial"
+    },
+    {
+      "path": "sign-auth"
+    },
+    {
+      "path": "helpers/logo"
+    },
+    {
+      "path": "helpers/httpo"
+    }
+  ],
+  "settings": {}
+}
