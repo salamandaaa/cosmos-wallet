@@ -49,7 +49,7 @@ func Test_PostAuthenticate(t *testing.T) {
 		c, _ := gin.CreateTestContext(rr)
 		c.Request = req
 		authenticate(c)
-		assert.Equal(t, http.StatusOK, rr.Result().StatusCode, rr.Body.String(), "status code should be 200 (OK), body: %s", rr.Body)
+		assert.Equal(t, http.StatusOK, rr.Result().StatusCode, "status code should be 200 (OK), body: %s", rr.Body)
 	})
 	t.Run("Should return 401 with different wallet address", func(t *testing.T) {
 		testWallet := testingcommon.GenerateWallet()
@@ -73,7 +73,7 @@ func Test_PostAuthenticate(t *testing.T) {
 		c, _ := gin.CreateTestContext(rr)
 		c.Request = req
 		authenticate(c)
-		assert.Equal(t, http.StatusUnauthorized, rr.Result().StatusCode, rr.Body.String(), "status code should be 401 (Unauthorized), body: %s", rr.Body)
+		assert.Equal(t, http.StatusUnauthorized, rr.Result().StatusCode, "status code should be 401 (Unauthorized), body: %s", rr.Body)
 	})
 
 	t.Run("Should return 401 if flow ID doesn't exist", func(t *testing.T) {
@@ -101,7 +101,7 @@ func Test_PostAuthenticate(t *testing.T) {
 		c, _ := gin.CreateTestContext(rr)
 		c.Request = req
 		authenticate(c)
-		assert.Equal(t, http.StatusNotFound, rr.Result().StatusCode, rr.Body.String(), "status code should be 404 (NotFound), body: %s", rr.Body)
+		assert.Equal(t, http.StatusNotFound, rr.Result().StatusCode, "status code should be 404 (NotFound), body: %s", rr.Body)
 	})
 
 }
