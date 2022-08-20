@@ -3,8 +3,6 @@ package environment
 
 import (
 	"log"
-
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/env"
 )
 
 type Environment int
@@ -17,7 +15,7 @@ const (
 // GetEnvironment returns environment from env variable and fatals if it is different from
 // PROD and DEV
 func GetEnvironment() Environment {
-	appEnv := env.MustGetEnv("APP_ENVIRONMENT")
+	appEnv := os.Getenv("APP_ENVIRONMENT")
 
 	if appEnv == "PROD" {
 		return PROD
