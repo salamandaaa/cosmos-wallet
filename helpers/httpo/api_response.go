@@ -19,6 +19,11 @@ func (apiRes *ApiResponse) Send(c *gin.Context, statusCode int) {
 	c.JSON(statusCode, apiRes)
 }
 
+// Sends ApiResponse with gin context and with customStatusCode as standard one
+func (apiRes *ApiResponse) SendD(c *gin.Context) {
+	c.JSON(apiRes.StatusCode, apiRes)
+}
+
 // NewSuccessResponse returns ApiResponse for success
 func NewSuccessResponse(customStatusCode int, message string, payload interface{}) *ApiResponse {
 	return &ApiResponse{
