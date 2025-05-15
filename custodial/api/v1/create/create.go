@@ -5,12 +5,12 @@ import (
 	"encoding/base64"
 	"net/http"
 
-	usermethods "github.com/MyriadFlow/cosmos-wallet/custodial/models/user/user_methods"
-	walletaddress "github.com/MyriadFlow/cosmos-wallet/custodial/pkg/blockchain_cosmos/wallet_address"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/env"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/httpo"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
 	"github.com/gin-gonic/gin"
+	usermethods "github.com/salamandaaa/cosmos-wallet/custodial/models/user/user_methods"
+	walletaddress "github.com/salamandaaa/cosmos-wallet/custodial/pkg/blockchain_cosmos/wallet_address"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/env"
+	"github.com/salamandaaa/cosmos-wallet/helpers/httpo"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 )
 
 // ApplyRoutes applies /authenticate to gin RouterGroup

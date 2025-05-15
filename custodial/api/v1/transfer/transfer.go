@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"net/http"
 
-	usermethods "github.com/MyriadFlow/cosmos-wallet/custodial/models/user/user_methods"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/errorso"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/httpo"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
 	"github.com/gin-gonic/gin"
+	usermethods "github.com/salamandaaa/cosmos-wallet/custodial/models/user/user_methods"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/errorso"
+	"github.com/salamandaaa/cosmos-wallet/helpers/httpo"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 )
 
 // ApplyRoutes applies router to gin RouterGroup

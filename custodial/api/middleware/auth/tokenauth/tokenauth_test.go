@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/MyriadFlow/cosmos-wallet/custodial/app/stage/appinit"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/env"
+	"github.com/salamandaaa/cosmos-wallet/custodial/app/stage/appinit"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/env"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

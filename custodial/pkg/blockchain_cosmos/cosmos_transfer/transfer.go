@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/env"
 	apiBaseTendermint "github.com/cosmos/cosmos-sdk/api/cosmos/base/tendermint/v1beta1"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/tx"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/env"
 	"google.golang.org/grpc"
 )
 

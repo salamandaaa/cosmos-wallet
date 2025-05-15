@@ -5,13 +5,13 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/MyriadFlow/cosmos-wallet/custodial/app/stage/appinit"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/models/user"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/blockchain_cosmos"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/errorso"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/store"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/testingcommon"
 	"github.com/google/uuid"
+	"github.com/salamandaaa/cosmos-wallet/custodial/app/stage/appinit"
+	"github.com/salamandaaa/cosmos-wallet/custodial/models/user"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/blockchain_cosmos"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/errorso"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/store"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/testingcommon"
 	"github.com/stretchr/testify/assert"
 )
 

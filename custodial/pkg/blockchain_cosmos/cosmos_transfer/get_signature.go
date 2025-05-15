@@ -3,12 +3,12 @@ package cosmos_transfer
 import (
 	"fmt"
 
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/env"
 	"github.com/cosmos/cosmos-sdk/client"
 	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
 	"github.com/cosmos/cosmos-sdk/simapp/params"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 	xauthsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/env"
 	"google.golang.org/grpc"
 )
 

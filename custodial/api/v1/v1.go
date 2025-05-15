@@ -2,11 +2,11 @@
 package apiv1
 
 import (
-	tokenauthmiddleware "github.com/MyriadFlow/cosmos-wallet/custodial/api/middleware/auth/tokenauth"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/api/v1/create"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/api/v1/healthcheck"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/api/v1/transfer"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/api/v1/wallet"
+	tokenauthmiddleware "github.com/salamandaaa/cosmos-wallet/custodial/api/middleware/auth/tokenauth"
+	"github.com/salamandaaa/cosmos-wallet/custodial/api/v1/create"
+	"github.com/salamandaaa/cosmos-wallet/custodial/api/v1/healthcheck"
+	"github.com/salamandaaa/cosmos-wallet/custodial/api/v1/transfer"
+	"github.com/salamandaaa/cosmos-wallet/custodial/api/v1/wallet"
 
 	"github.com/gin-gonic/gin"
 )

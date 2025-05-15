@@ -2,8 +2,8 @@
 package cosmosinit
 
 import (
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/env"
 	sdkTypes "github.com/cosmos/cosmos-sdk/types"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/env"
 )
 
 func Init() {

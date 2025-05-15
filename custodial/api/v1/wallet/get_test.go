@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/MyriadFlow/cosmos-wallet/custodial/app/stage/appinit"
-	usermethods "github.com/MyriadFlow/cosmos-wallet/custodial/models/user/user_methods"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/testingcommon"
+	"github.com/salamandaaa/cosmos-wallet/custodial/app/stage/appinit"
+	usermethods "github.com/salamandaaa/cosmos-wallet/custodial/models/user/user_methods"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/testingcommon"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 	"gorm.io/gorm"
 )
 

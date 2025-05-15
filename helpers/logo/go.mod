@@ -1,4 +1,4 @@
-module github.com/MyriadFlow/cosmos-wallet/helpers/logo
+module github.com/salamandaaa/cosmos-wallet/helpers/logo
 
 go 1.18
 

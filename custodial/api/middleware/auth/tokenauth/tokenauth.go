@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/env"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/httpo"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/env"
+	"github.com/salamandaaa/cosmos-wallet/helpers/httpo"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 
 	"github.com/gin-gonic/gin"
 )

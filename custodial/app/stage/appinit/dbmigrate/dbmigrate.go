@@ -2,9 +2,9 @@
 package dbmigrate
 
 import (
-	"github.com/MyriadFlow/cosmos-wallet/custodial/models/user"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/store"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
+	"github.com/salamandaaa/cosmos-wallet/custodial/models/user"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/store"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 )
 
 func Migrate() {

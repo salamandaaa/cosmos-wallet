@@ -1,4 +1,4 @@
-module github.com/MyriadFlow/cosmos-wallet/helpers/httpo
+module github.com/salamandaaa/cosmos-wallet/helpers/httpo
 
 go 1.18
 

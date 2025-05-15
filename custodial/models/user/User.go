@@ -4,8 +4,8 @@ package user
 import (
 	"fmt"
 
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/errorso"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/store"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/errorso"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/store"
 )
 
 // CustodialUser custodial user model with id and mnemonic

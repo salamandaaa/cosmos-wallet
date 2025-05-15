@@ -4,11 +4,11 @@ package apprun
 import (
 	"time"
 
-	"github.com/MyriadFlow/cosmos-wallet/custodial/api"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/env"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	"github.com/salamandaaa/cosmos-wallet/custodial/api"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/env"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 )
 
 func Run() {

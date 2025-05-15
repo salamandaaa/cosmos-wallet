@@ -6,14 +6,14 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/MyriadFlow/cosmos-wallet/custodial/models/user"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/blockchain_cosmos"
-	walletaddress "github.com/MyriadFlow/cosmos-wallet/custodial/pkg/blockchain_cosmos/wallet_address"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/env"
-	"github.com/MyriadFlow/cosmos-wallet/custodial/pkg/errorso"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/httpo"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
 	"github.com/gin-gonic/gin"
+	"github.com/salamandaaa/cosmos-wallet/custodial/models/user"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/blockchain_cosmos"
+	walletaddress "github.com/salamandaaa/cosmos-wallet/custodial/pkg/blockchain_cosmos/wallet_address"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/env"
+	"github.com/salamandaaa/cosmos-wallet/custodial/pkg/errorso"
+	"github.com/salamandaaa/cosmos-wallet/helpers/httpo"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 )
 
 // ApplyRoutes applies router to gin RouterGroup
