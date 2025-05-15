@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/app/stage/appinit"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/testingcommon"
 	"github.com/gin-gonic/gin"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/app/stage/appinit"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/testingcommon"
 	"github.com/stretchr/testify/assert"
 )
 

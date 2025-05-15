@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MyriadFlow/cosmos-wallet/helpers/httpo"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/paseto"
+	"github.com/salamandaaa/cosmos-wallet/helpers/httpo"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/paseto"
 	"github.com/vk-rv/pvx"
 	"gorm.io/gorm"
 

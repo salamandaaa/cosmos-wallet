@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/env"
-	pasetoclaims "github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/paseto/paseto_claims"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/env"
+	pasetoclaims "github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/paseto/paseto_claims"
 	"github.com/vk-rv/pvx"
 )
 
-//Returns paseto token for given wallet address
+// Returns paseto token for given wallet address
 func GetPasetoForUser(walletAddr string) (string, error) {
 	pasetoExpirationInHours, ok := os.LookupEnv("PASETO_EXPIRATION_IN_HOURS")
 	pasetoExpirationInHoursInt := time.Duration(24)

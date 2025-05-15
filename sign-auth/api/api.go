@@ -2,7 +2,7 @@
 package api
 
 import (
-	v1 "github.com/MyriadFlow/cosmos-wallet/sign-auth/api/v1"
+	v1 "github.com/salamandaaa/cosmos-wallet/sign-auth/api/v1"
 
 	"github.com/gin-gonic/gin"
 )

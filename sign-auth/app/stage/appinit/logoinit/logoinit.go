@@ -2,8 +2,8 @@
 package logoinit
 
 import (
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/environment"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/environment"
 	"github.com/sirupsen/logrus"
 )
 

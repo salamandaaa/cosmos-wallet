@@ -4,9 +4,9 @@ package user
 import (
 	"fmt"
 
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/models/flowid"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/errorso"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/store"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/models/flowid"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/errorso"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/store"
 )
 
 // CustodialUser custodial user model with wallet address and one to many relation with FlowId

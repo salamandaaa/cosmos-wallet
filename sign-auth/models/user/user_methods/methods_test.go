@@ -3,7 +3,7 @@ package usermethods
 import (
 	"testing"
 
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/app/stage/appinit"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/app/stage/appinit"
 	"github.com/stretchr/testify/assert"
 )
 

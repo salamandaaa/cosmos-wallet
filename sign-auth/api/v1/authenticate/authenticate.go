@@ -6,12 +6,12 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/MyriadFlow/cosmos-wallet/helpers/httpo"
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
-	flowidmethods "github.com/MyriadFlow/cosmos-wallet/sign-auth/models/flowid/flowid_methods"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/errorso"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	"github.com/gin-gonic/gin"
+	"github.com/salamandaaa/cosmos-wallet/helpers/httpo"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
+	flowidmethods "github.com/salamandaaa/cosmos-wallet/sign-auth/models/flowid/flowid_methods"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/errorso"
 )
 
 // ApplyRoutes applies router to gin Router

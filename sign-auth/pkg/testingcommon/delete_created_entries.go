@@ -3,12 +3,12 @@ package testingcommon
 import (
 	"fmt"
 
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/store"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/store"
 	"gorm.io/gorm"
 )
 
-//Referred from https://medium.com/@jarifibrahim/using-gorm-hooks-to-clean-up-test-fixtures-in-golang-99b0fcb04354
+// Referred from https://medium.com/@jarifibrahim/using-gorm-hooks-to-clean-up-test-fixtures-in-golang-99b0fcb04354
 func DeleteCreatedEntities() func() {
 	db := store.DB
 	type entity struct {

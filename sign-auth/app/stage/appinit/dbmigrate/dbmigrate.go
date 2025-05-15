@@ -2,10 +2,10 @@
 package dbmigrate
 
 import (
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/models/flowid"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/models/user"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/store"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/models/flowid"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/models/user"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/store"
 )
 
 func Migrate() {

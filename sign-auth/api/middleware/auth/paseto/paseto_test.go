@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MyriadFlow/cosmos-wallet/helpers/httpo"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/app/stage/appinit"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/models/user"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/paseto"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/store"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/testingcommon"
+	"github.com/salamandaaa/cosmos-wallet/helpers/httpo"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/app/stage/appinit"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/models/user"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/paseto"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/store"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/testingcommon"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

@@ -4,13 +4,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/models/flowid"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/models/user"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/errorso"
 	"github.com/google/uuid"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/models/flowid"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/models/user"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/errorso"
 )
 
-//Create and insert flow Id into the database and return it
+// Create and insert flow Id into the database and return it
 func CreateFlowId(walletAddress string) (string, error) {
 
 	//Check if user exist

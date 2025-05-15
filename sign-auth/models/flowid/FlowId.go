@@ -2,8 +2,8 @@
 package flowid
 
 import (
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/errorso"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/store"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/errorso"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/store"
 )
 
 type FlowId struct {
@@ -28,7 +28,7 @@ func GetFlowId(flowId string) (*FlowId, error) {
 	return &userFlowId, nil
 }
 
-//Adds flow id into database for given wallet Address
+// Adds flow id into database for given wallet Address
 func AddFlowId(walletAddr string, flowId string) error {
 	db := store.DB
 	err := db.Create(&FlowId{

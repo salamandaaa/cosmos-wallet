@@ -4,8 +4,8 @@ package pasetoclaims
 import (
 	"time"
 
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/models/user"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/store"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/models/user"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/store"
 	"github.com/vk-rv/pvx"
 )
 

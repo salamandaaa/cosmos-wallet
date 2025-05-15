@@ -4,7 +4,7 @@ package env
 import (
 	"os"
 
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 )
 
 // MustGetEnv returns value of env variable if it exist or if it doesn't exist

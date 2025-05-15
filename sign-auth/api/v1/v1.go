@@ -1,10 +1,10 @@
 package apiv1
 
 import (
-	pasetomiddleware "github.com/MyriadFlow/cosmos-wallet/sign-auth/api/middleware/auth/paseto"
-	authenticate "github.com/MyriadFlow/cosmos-wallet/sign-auth/api/v1/authenticate"
-	flowid "github.com/MyriadFlow/cosmos-wallet/sign-auth/api/v1/flowid"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/api/v1/healthcheck"
+	pasetomiddleware "github.com/salamandaaa/cosmos-wallet/sign-auth/api/middleware/auth/paseto"
+	authenticate "github.com/salamandaaa/cosmos-wallet/sign-auth/api/v1/authenticate"
+	flowid "github.com/salamandaaa/cosmos-wallet/sign-auth/api/v1/flowid"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/api/v1/healthcheck"
 
 	"github.com/gin-gonic/gin"
 )

@@ -2,9 +2,9 @@
 package appinit
 
 import (
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/app/stage/appinit/dbconinit"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/app/stage/appinit/dbmigrate"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/app/stage/appinit/logoinit"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/app/stage/appinit/dbconinit"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/app/stage/appinit/dbmigrate"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/app/stage/appinit/logoinit"
 )
 
 func Init() {

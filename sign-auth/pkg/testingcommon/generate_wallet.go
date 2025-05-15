@@ -1,10 +1,10 @@
 package testingcommon
 
 import (
-	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
-	walletaddress "github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/cosmos_blockchain/wallet_address"
-	"github.com/MyriadFlow/cosmos-wallet/sign-auth/pkg/env"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
+	walletaddress "github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/cosmos_blockchain/wallet_address"
+	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/env"
 )
 
 type TestWallet struct {
