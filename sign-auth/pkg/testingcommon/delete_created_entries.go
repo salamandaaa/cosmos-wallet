@@ -3,7 +3,7 @@ package testingcommon
 import (
 	"fmt"
 
-	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
+	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
 	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/store"
 	"gorm.io/gorm"
 )

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
+	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
 	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/env"
 	pasetoclaims "github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/paseto/paseto_claims"
 	"github.com/vk-rv/pvx"

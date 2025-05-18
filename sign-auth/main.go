@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
+	"github.com/MyriadFlow/cosmos-wallet/sign-auth/app/stage/appinit"
+	"github.com/MyriadFlow/cosmos-wallet/sign-auth/app/stage/apprun"
 	_ "github.com/joho/godotenv/autoload"
-	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
-	"github.com/salamandaaa/cosmos-wallet/sign-auth/app/stage/appinit"
-	"github.com/salamandaaa/cosmos-wallet/sign-auth/app/stage/apprun"
 )
 
 func main() {

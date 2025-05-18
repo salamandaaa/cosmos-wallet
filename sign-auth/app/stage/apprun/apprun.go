@@ -4,9 +4,9 @@ package apprun
 import (
 	"time"
 
+	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 	"github.com/salamandaaa/cosmos-wallet/sign-auth/api"
 	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/env"
 )

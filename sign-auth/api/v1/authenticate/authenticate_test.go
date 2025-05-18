@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/MyriadFlow/cosmos-wallet/helpers/httpo"
+	"github.com/MyriadFlow/cosmos-wallet/helpers/logo"
 	"github.com/google/uuid"
-	"github.com/salamandaaa/cosmos-wallet/helpers/httpo"
-	"github.com/salamandaaa/cosmos-wallet/helpers/logo"
 	"github.com/salamandaaa/cosmos-wallet/sign-auth/api/v1/flowid"
 	"github.com/salamandaaa/cosmos-wallet/sign-auth/app/stage/appinit"
 	arbitraryverify "github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/cosmos_blockchain/arbitrary_verify"

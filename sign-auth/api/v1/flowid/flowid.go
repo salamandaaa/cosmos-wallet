@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/MyriadFlow/cosmos-wallet/helpers/httpo"
 	"github.com/cosmos/cosmos-sdk/types/bech32"
-	"github.com/salamandaaa/cosmos-wallet/helpers/httpo"
 	usermethods "github.com/salamandaaa/cosmos-wallet/sign-auth/models/user/user_methods"
 	"github.com/salamandaaa/cosmos-wallet/sign-auth/pkg/env"
 
