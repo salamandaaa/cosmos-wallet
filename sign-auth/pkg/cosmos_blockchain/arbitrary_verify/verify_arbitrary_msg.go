@@ -13,11 +13,20 @@ import (
 
 func toECDSAPubKey(pk secp256k1.PubKey) (*ecdsa.PublicKey, error) {
 	pubBytes := pk.Key
-	x, y := elliptic.Unmarshal(secp256k1.S256(), pubBytes)
+
+	if len(pubBytes) == 33 {
+		pubBytesUncompressed, err := crypto.DecompressPubkey(pubBytes)
+		if err != nil {
+			return nil, err
+		}
+		return pubBytesUncompressed, nil
+	}
+
+	x, y := elliptic.Unmarshal(crypto.S256(), pubBytes)
 	if x == nil || y == nil {
 		return nil, errors.New("invalid public key")
 	}
-	return &ecdsa.PublicKey{Curve: secp256k1.S256(), X: x, Y: y}, nil
+	return &ecdsa.PublicKey{Curve: crypto.S256(), X: x, Y: y}, nil
 }
 
 // VerifyArbitraryMsg verifies arbitrary Adr036 message by first

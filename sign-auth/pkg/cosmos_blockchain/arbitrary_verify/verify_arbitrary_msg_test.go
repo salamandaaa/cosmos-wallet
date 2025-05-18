@@ -10,18 +10,18 @@ import (
 )
 
 func Test_VerifyArbitraryMsg(t *testing.T) {
-	bytePubKey, err := hex.DecodeString("0386373dcc17c7e323cc4b2044895ce2325422abaad4270e406982cfa744667dce")
+	bytePubKey, err := hex.DecodeString("038318535b54105d4a7aae60c08fc45f9687181b4fdfc625bd1a753fa7397fed75")
 	if err != nil {
 		log.Fatal("failed to get byte pubkey from hex: ", err)
 	}
 
-	hexSign := "87b00857729e8dbf4f78246fbb5dcdb706679ad979cf59b9d4a1039e2eabe41d3570432af5cfd393e01f01245115ba4d4cb8c1c43bf51a5b7b78dced8a6aa18f"
+	hexSign := "18686c968bf55832a0a97e08e05d81e859ea2b85208dfe57a7bc09d075cc293b16ec21f5593ff97cdb14ee204b325496c69f5282dc16af3b267dc0ec1371431e"
 	byteSignature, err := hex.DecodeString(hexSign)
 	if err != nil {
 		log.Fatal("failed to get byte sign from hex: ", err)
 	}
 	pubKey := secp256k1.PubKey{Key: bytePubKey}
-	stat, err := VerifyArbitraryMsg("cosmos1uuyak34fv767a65k9f4ms8jepcc2z5wswt5eg8", "max", byteSignature, pubKey)
+	stat, err := VerifyArbitraryMsg("sah17w0adeg64ky0daxwd2ugyuneellmjgnx5awphz", "asdf", byteSignature, pubKey)
 	if err != nil {
 		t.Fatal(err)
 	}
